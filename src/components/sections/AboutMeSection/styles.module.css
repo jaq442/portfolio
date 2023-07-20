@@ -1,0 +1,11 @@
+@media (min-width: 426px) {
+  .aboutMeSection {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .aboutMeSection > h2,
+  .aboutMeSection > p {
+    width: 50%;
+  }
+}

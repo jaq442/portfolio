@@ -1,0 +1,14 @@
+:root {
+    --color-primary: #6880FF;
+    --color-primary-hover: #7C91FF;
+
+    --color-link:  #7B61FF;
+    --color-link-hover: #7C91FF;
+
+    --color-white: #ffffff;
+    --color-black: #000000;
+}
+
+body {
+    background: var(--color-black);
+  }

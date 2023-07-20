@@ -1,0 +1,41 @@
+.btn{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: .6rem;
+
+    padding: 0 1.875rem;
+    height: 2.4375rem;
+
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.4;
+
+
+    background: var(--color-primary);
+    color: var(--color-white);
+
+    border-radius: 12px;
+}
+
+.btn:hover{
+    background-color: var(--color-primary-hover);
+    cursor: pointer;
+}
+
+.link{
+    color: var(--color-link);
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.link:hover{
+    color: var(--color-link-hover);
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.btn__social{
+    cursor: pointer;
+}
