@@ -11,12 +11,12 @@ export const Header = () => {
         <img src={Portfolio} alt="Logo" />
         <nav>
            
-          <a href="#" className="paragraph">Sobre</a>
-          <a href="#" className="paragraph">Stack</a>
-          <a href="#" className="paragraph">Projetos</a>
+          <a href="#aboutMe" className="paragraph">Sobre</a>
+          <a href="#stack" className="paragraph">Stacks</a>
+          <a href="#projects" className="paragraph">Projetos</a>
          
         </nav>
-        <a href="#" className="btn">Contato</a>
+        <a href="#footer" className="btn">Contato</a>
         </div>
         </div>
       </header>

@@ -8,7 +8,7 @@ export const TechList = ({ name, img }) => {
   return (
     <>
       <li className={styles.listItem}>
-        <img src={img} alt="Logo HTML" />
+        <img className={`${styles.logo}`} src={img} alt="Logo HTML" />
         <h3 className="title3">{name}</h3>
       </li>
     </>

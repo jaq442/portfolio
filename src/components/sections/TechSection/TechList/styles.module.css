@@ -8,6 +8,11 @@
   margin: 10px 0;
 }
 
+.logo {
+  width: 32px;
+}
+
+
 @media (min-width: 426px) {
   .listContainer {
     display: flex;
@@ -17,8 +22,8 @@
 
   .listContainer > li {
     display: flex;
-    min-width: 270px;
+    min-width: 287px;
     height: 86px;
-    margin: 5px;
+    margin: 10px;
   }
 }

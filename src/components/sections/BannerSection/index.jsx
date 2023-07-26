@@ -11,10 +11,10 @@ export const BannerSection = () => {
             <div className={styles.bannerBox}>
               <h3 className="label">{username}</h3>
 
-              <h1 className="title1">Bem-vindo ao meu portfólio</h1>
+              <h1 className="title1">Olá, esse é o meu portfólio</h1>
               <div className={styles.bannerSection}>
-                <p className="paragraph">Uma frase</p>
-                <a href="#" className="btn">
+                {/* <p className="paragraph">Uma frase</p> */}
+                <a href="#projects" className="btn">
                   Saiba mais
                 </a>
               </div>

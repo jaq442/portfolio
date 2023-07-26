@@ -6,7 +6,7 @@ import { technologies } from "../../../data/technologies.js"
 
 export const TechSection = () => {
     return (
-        <section>
+        <section id="stack">
              <div className="container">
             <h2 className="title2">Tecnologias</h2>
             <ul className={styles.listContainer}>
